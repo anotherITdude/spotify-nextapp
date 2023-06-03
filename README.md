@@ -17,9 +17,8 @@ This repository showcases a Spotify clone created for demonstration/educational 
 <li>TypeScript</li>
 <li>Tailwind CSS</li>
 <li>Supabase</li>
-<li>Stripe Payment Gateway<li>
 <li>PostgreSQL</li>
-
+<li>Stripe Payment Gateway</li>
 </ul>
 
 
