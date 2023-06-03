@@ -26,9 +26,10 @@ This repository showcases a Spotify clone created for demonstration/educational 
 ## Demo Link
 
 [CLICK HERE](https://chatgpt-messenger-anotheritdude.vercel.app) to see the app hosted on Vercel. 
-
-## Screenshots
 -->
+## Screenshots
+
+<img width="900" alt="Screenshot 2023-06-03 at 10 54 52 PM" src="https://github.com/anotherITdude/spotify-nextapp/assets/4363970/99bba8cf-5d82-4668-ab1d-1377f880aec1">
 
 
 
