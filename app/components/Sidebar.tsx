@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
   return (
     <div
       className="
-    flex h-full
+    flex h-full mr-2
     "
     >
       <div
