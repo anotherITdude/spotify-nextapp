@@ -1,9 +1,37 @@
 import { TbPlaylist } from "react-icons/tb";
 import { AiOutlinePlus } from "react-icons/ai";
+import { useEffect, useState } from "react";
+import axios from 'axios'
 const Library = () => {
   const onClick = () => {
     //handle upload later
   };
+
+  const [players, setPlayers] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          "https://cricket.sportmonks.com/api/v2.0/players",
+          {
+            params: {
+              api_token:
+                "54ZUApappyDBqjsotfn29AcOspYb4pEf7DkanIkoNG3dj7Ot0SpVb2e3oZqi",
+            },
+          },
+        );
+
+        //setPlayers(response.data.data);
+        console.log("hello");
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <div className="flex flex-col">
       <div

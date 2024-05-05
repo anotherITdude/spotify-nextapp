@@ -30,11 +30,16 @@ This repository showcases a Spotify clone created for demonstration/educational 
 
 ```bash
 npm install stripe
+```
 
 ```bash
 npm install @supabase/auth-helpers-nextjs
 npm install @supabase/auth-helpers-react
+```
 
+```radix ui for modals
+npm install @radix-ui/react-dialog
+```
 ## Screenshots
 
 <img width="900" alt="Screenshot 2023-06-03 at 10 54 52 PM" src="https://github.com/anotherITdude/spotify-nextapp/assets/4363970/99bba8cf-5d82-4668-ab1d-1377f880aec1">

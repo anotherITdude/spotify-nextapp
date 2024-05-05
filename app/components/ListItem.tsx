@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { FaPlay } from "react-icons/fa";
+
 interface ListItemProps {
   image: string;
   name: string;
