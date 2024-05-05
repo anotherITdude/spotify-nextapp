@@ -40,9 +40,3 @@ npm install stripe
 ```bash
 npm install @supabase/auth-helpers-nextjs
 npm install @supabase/auth-helpers-react
-
-
-
-
-
-
