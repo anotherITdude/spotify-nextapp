@@ -1,10 +1,23 @@
 import { TbPlaylist } from "react-icons/tb";
 import { AiOutlinePlus } from "react-icons/ai";
 import { useEffect, useState } from "react";
-import axios from 'axios'
+import axios from "axios";
+import useAuthModal from "../hooks/useAuthModal";
+import { useUser } from "../hooks/useUser";
+import useUploadModal from "../hooks/useUploadModal";
 const Library = () => {
+  const authModal = useAuthModal();
+  const uploadModal = useUploadModal();
+  const { user } = useUser();
+
   const onClick = () => {
     //handle upload later
+    if (!user) {
+      authModal.onOpen();
+    }
+    //todo check for subscriptions
+    //handleupload
+    else return uploadModal.onOpen();
   };
 
   const [players, setPlayers] = useState([]);
